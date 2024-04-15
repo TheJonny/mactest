@@ -9,3 +9,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Build
         run: clang -E test.c
+      - name: python test
+        run: python3 open-test.py
